@@ -245,8 +245,6 @@ input[type=search]{
 
 .user-profile{
     width: 22vw;
-    /* border: 1px solid black; */
-    /* margin-left: 20px; */
 }
 
 .actions{
@@ -279,8 +277,14 @@ input[type=search]{
 .add-new-card{
     border: 2px dashed #B6B5CA;
     background-color: transparent;
+    border-radius: 8px;
     margin-top: 1.2rem;
     padding: 0.7rem 6.6rem;
+    font-weight: bold;
+}
+
+.add-new-card:hover{
+    cursor: pointer;
 }
 
 .expenses-history{
