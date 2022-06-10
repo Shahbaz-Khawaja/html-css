@@ -1,0 +1,425 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+}
+
+/* side Navbar */
+
+.side-nav{
+    width: 18vw;
+    height: 100vh;
+    border-right: 1px solid #e1e0e0;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 2em; */
+    color: #6C7479;
+}
+
+.logo > img{
+    margin-right: 0.7rem;
+}
+
+.menu > h4{
+    margin-left: 2rem;
+    margin-bottom: 0.1rem;
+    color: #4C43B9;
+}
+
+div.menu > ul{
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 0.1rem;
+}
+
+div.menu > ul > li > h5{
+    color: #8c8a8a;
+    margin: 0.8rem ;
+}
+
+.menu > ul >li > i{
+    margin-left: 2rem;
+    color: #8c8a8a;
+    margin-top: 0.8rem;
+    margin-right: 1rem;
+}
+
+ul > li{
+    display: flex;
+    align-items: baseline;
+}
+
+.list{
+    display: flex;
+}
+
+.payments{
+    margin-top: 5em;
+}
+
+.payments > h4{
+    color: #4C43B9;
+    margin-left: 2rem;
+    margin-bottom: 0.1rem;
+}
+
+.payments > ul{
+    padding: 0px;
+}
+
+.payments > ul >li > i{
+    margin-left: 2rem;
+}
+
+div.payments > ul > li > h5{
+    color: #8c8a8a;
+    margin: 0.8rem ;
+}
+
+.payments > ul >li > i{
+    margin-top: 0.8rem;
+    margin-right: 1.2rem;
+}
+
+#rent{
+    color: #9cb4f1;
+}
+
+#payment{
+    color: #f1a9a5;
+}
+
+#bill{
+    color: #a1e9e5;
+}
+
+
+div.menu > ul > li:hover{
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+
+div.payments > ul > li:hover{
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+
+/* main content */
+
+.main-content{
+    width: 47vw;
+    height: 100vh;
+    border-right: 1px solid #e1e0e0;
+    padding: 3em 6em;
+}
+
+input[type=search]{
+    padding: 0.8rem;
+    width: 40vw;
+    border: 2px solid #dbdbdb;
+    border-radius: 6px;
+    outline: none;
+    background: url(../images/search-12-16.ico) no-repeat 12px 12px;
+    padding-left: 2.4rem;
+}
+
+.welcome-heading{
+    color: #372D9A;
+    font-weight: bold;
+}
+
+.bank-transfers{
+    display: flex;
+}
+
+.transfer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.transfer:hover{
+    cursor: pointer;
+}
+
+.card-transfer{
+    background-color: #dbfbdd;
+    color: #6b946a;
+}
+.another-bank-transfer{
+    background-color: #dcd6f9;
+    color: #726c9b;
+}
+.same-bank-transfer{
+    background-color: #fde0cb;
+    color: #927162;
+}
+.inter-bank-transfer{
+    background-color: #d9f5fd;
+    color: #517e89;
+}
+
+.balance{
+    margin-top: 1.5rem;
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.balance > div > h2{
+    margin-top: 0.1rem;
+    color: #372D9A;
+}
+
+.balance > div > h5{
+    margin-bottom: 0.34em;
+}
+
+.balance > div > h2 > sub{
+    font-size: 0.8rem;
+    color: #a39f9f;
+}
+
+.dots{
+    padding: 6px 10px;
+    border-radius: 20%;
+    background-color: #eeeeee;
+}
+
+.dots:hover{
+    background-color: #dbdbdb;
+    cursor: pointer;
+}
+
+.graph{
+    text-align: center;
+}
+
+.users-history{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.user{
+    padding-left: 1.2rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid #cccccc;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.rounded-photo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.personal-details{
+    margin-left: 1.2rem;
+}
+
+.personal-details > h4{
+    margin: 0.3rem;
+}
+
+.personal-details > p{
+    margin: 0.4rem;
+    font-size: 0.8rem;
+    color: #8d8c8c;
+}
+
+.user-profile{
+    width: 22vw;
+    /* border: 1px solid black; */
+    /* margin-left: 20px; */
+}
+
+.actions{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+.user-icon{
+    margin: 1.5rem;
+    color: #79797B;
+    font-size: 1.7rem;
+}
+
+.user-icon:hover{
+    cursor: pointer;
+}
+
+.rounded-user-photo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.visa-card{
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.add-new-card{
+    border: 2px dashed #B6B5CA;
+    background-color: transparent;
+    margin-top: 1.2rem;
+    padding: 0.7rem 6.6rem;
+}
+
+.expenses-history{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.today{
+    border-bottom: 1px solid #d7d7d8;
+}
+
+.today > p{
+    font-size: 0.8rem;
+    color: #8d8d90;
+    margin-bottom: 0px;
+}
+
+.water-bill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.water-bill > div > h5{
+    margin-bottom: 0px;
+}
+
+.water-bill > div > p{
+    font-size: 0.7rem;
+    margin-top: 0px;
+}
+
+.water-bill > p{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: red;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blueviolet-box{
+    background-color: #3429AE;
+}
+
+.red-box{
+    background-color: #EB536C;
+}
+
+.blue-box{
+    background-color: #418FF6;
+}
+
+.yellow-box{
+    background-color: #F3B24B;
+}
+
+.green-box{
+    background-color: #68C6AE;
+}
+
+.yesterday > p{
+    font-size: 0.8rem;
+    color: #8d8d90;
+    margin-bottom: 0px;
+}
+
+.income-sal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.income-sal > p{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #4b4488;
+}
+
+.box > i{
+    color: white;
+}
+
+.electricity-bill{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.electricity-bill > div > h5{
+    margin-bottom: 0px;
+}
+.electricity-bill > div > p{
+    font-size: 0.7rem;
+    margin-top: 0px;
+}
+
+.electricity-bill > p{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: red;
+}
+
+.income-transfer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.income-transfer > p{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #4b4488;
+}
+
+.internet-bill > div > h5{
+    margin-bottom: 0px;
+}
+
+.internet-bill > div > p{
+    font-size: 0.7rem;
+    margin-top: 0px;
+}
+
+.internet-bill > p{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: red;
+}
+
+.internet-bill{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
